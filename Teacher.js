@@ -4,5 +4,8 @@ class Teacher extends Student {
         this.Salary = Salary;
         this.subjects = subjects;
     }
+    show() {
+        return this.show() + this.number + this.subjects;
+      }
 }
 let Teacher1 = new Teacher ('196432','Sadi','Sadi@orange.com',0777788888,800,'[English, Arabic, Math, science]')
